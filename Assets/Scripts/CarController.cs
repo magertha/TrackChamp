@@ -24,7 +24,7 @@ public class CarController : MonoBehaviour
 
     public float turnSensitivity = 1.0f;
 
-    public Vector3 _centerOfMass;
+    //public Vector3 _centerOfMass;
 
     public List<Wheel> wheels;
 
@@ -36,7 +36,7 @@ public class CarController : MonoBehaviour
     void Start()
     {
         carRb = GetComponent<Rigidbody>();
-        carRb.centerOfMass = _centerOfMass;
+        //carRb.centerOfMass = _centerOfMass;
     }
 
     void FixedUpdate()
